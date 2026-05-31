@@ -1,0 +1,15 @@
+{
+  "name": "eu.demondragon.prefabpooling",
+  "version": "1.0.0",
+  "displayName": "Demondragon Prefab Pooling",
+  "description": "A lightweight, type-safe prefab object pool for Unity. Supports lifecycle callbacks (OnSpawned / OnDespawned), CancellationToken-based async cancellation, pre-warming, per-prefab capacity config, and a convenience Release() method on poolable objects.",
+  "unity": "6000.0",
+  "documentationUrl": "https://github.com/jardaczk/unity-prefab-pooling#readme",
+  "changelogUrl": "https://github.com/jardaczk/unity-prefab-pooling/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/jardaczk/unity-prefab-pooling/blob/main/LICENSE",
+  "author": {
+    "name": "Demondragon",
+    "url": "https://github.com/jardaczk"
+  },
+  "keywords": ["pool", "pooling", "object-pool", "prefab", "performance"]
+}
