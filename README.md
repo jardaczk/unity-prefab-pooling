@@ -13,7 +13,27 @@ A lightweight, type-safe prefab object pool for Unity 6+.
 
 ## Installation
 
-Add the package via **Window → Package Manager → Add package from git URL**:
+### Option A – Local package (same machine)
+
+In the target project open `Packages/manifest.json` and add:
+
+```json
+{
+  "dependencies": {
+	"eu.demondragon.eventbus": "file:../../path/to/this/Packages/eu.demondragon.prefab-pooling"
+  }
+}
+```
+
+### Option B – Git URL (recommended for sharing)
+
+Push this repository to GitHub (or any git host), then add the package via **Window → Package Manager → + → Add package from git URL…**:
+
+```
+https://github.com/jardaczk/unity-prefab-pooling.git
+```
+
+To pin a specific version use a tag:
 
 ```
 https://github.com/jardaczk/unity-prefab-pooling.git#v1.0.0
