@@ -8,7 +8,7 @@
   "changelogUrl": "https://github.com/jardaczk/unity-prefab-pooling/blob/main/CHANGELOG.md",
   "licensesUrl": "https://github.com/jardaczk/unity-prefab-pooling/blob/main/LICENSE",
   "author": {
-    "name": "Demondragon",
+    "name": "DemonDragon",
     "url": "https://github.com/jardaczk"
   },
   "keywords": ["pool", "pooling", "object-pool", "prefab", "performance"]
